@@ -1,0 +1,29 @@
+services:
+    skynettechnologies.phpbb_allinoneaccessibility.admin.controller:
+        class: skynettechnologies\phpbb_allinoneaccessibility\controller\admin_controller
+        arguments:
+            - '@ext.manager' 
+            - '@dbal.conn'
+            - '@path_helper'
+            - '@config'
+            - '@config_text'
+            - '@language'
+            - '@log'
+            - '@request'
+            - '@template'
+            - '@user'
+            - '%core.root_path%'
+            - '%core.php_ext%' 
+                        
+    skynettechnologies.phpbb_allinoneaccessibility.listener:
+        class: skynettechnologies\phpbb_allinoneaccessibility\event\main_listener
+        arguments:
+            - '@ext.manager'
+            - '@dbal.conn'
+            - '@config'
+            - '@template'
+            - '@language'
+            - '%core.root_path%'
+            - '%core.php_ext%'
+        tags:
+            - { name: event.listener }
