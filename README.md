@@ -30,22 +30,22 @@ Following features can be added as an addon
 
 ## Installation
 
-Copy the extension to phpBB/ext/skynettechnologies/phpbb_allinoneaccessibility
+Copy the extension to phpBB/ext/skynettechnologies/phpbballinoneaccessibility
 
 Go to "ACP" > "Customise" > "Extensions" and enable the "All in One Accessibility" extension.
 
 ## Install
 1. Download the latest release.
-2. Unzip the downloaded release, and change the name of the folder to `phpbb_allinoneaccessibility`.
+2. Unzip the downloaded release, and change the name of the folder to `phpbballinoneaccessibility`.
 3. In the `ext` directory of your phpBB board, create a new directory named `skynettechnologies` (if it does not already exist).
-4. Copy the `phpbb_allinoneaccessibility` folder to `/ext/skynettechnologies/` (if done correctly, you'll have the main extension class at (your forum root)/ext/skynettechnologies/phpbb_allinoneaccessibility/composer.json).
+4. Copy the `phpbballinoneaccessibility` folder to `/ext/skynettechnologies/` (if done correctly, you'll have the main extension class at (your forum root)/ext/skynettechnologies/phpbballinoneaccessibility/composer.json).
 5. Navigate in the ACP to `Customise -> Manage extensions`.
 6. Look for `All in One Accessibility` under the Disabled Extensions list, and click its `Enable` link.
 
 ## Uninstall
 1. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
 2. Look for `All in One Accessibility` under the Enabled Extensions list, and click its `Disable` link.
-3. To permanently uninstall, click `Delete Data` and then delete the `/ext/skynettechnologies/phpbb_allinoneaccessibility` folder.
+3. To permanently uninstall, click `Delete Data` and then delete the `/ext/skynettechnologies/phpbballinoneaccessibility` folder.
 
 ## Management
 1. Navigate in the ACP to `Extensions -> ALL IN ONE ACCESSIBILITY`.

@@ -8,7 +8,7 @@
  *
  */
 
-namespace skynettechnologies\phpbb_allinoneaccessibility\controller;
+namespace skynettechnologies\phpbballinoneaccessibility\controller;
 
 class admin_controller
 {
@@ -43,7 +43,7 @@ class admin_controller
 	{
 		$this->db					= $db;
 		$this->ext_manager			= $ext_manager;
-		$this->md_manager 			= $ext_manager->create_extension_metadata_manager('skynettechnologies/phpbb_allinoneaccessibility');
+		$this->md_manager 			= $ext_manager->create_extension_metadata_manager('skynettechnologies/phpbballinoneaccessibility');
 		$this->admin_path 			= $path_helper->get_phpbb_root_path() . $path_helper->get_adm_relative_path();
 		$this->config				= $config;
 		$this->config_text			= $config_text;

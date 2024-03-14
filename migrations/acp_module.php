@@ -8,7 +8,7 @@
  *
  */
 
-namespace skynettechnologies\phpbb_allinoneaccessibility\migrations;
+namespace skynettechnologies\phpbballinoneaccessibility\migrations;
 
 class acp_module extends \phpbb\db\migration\migration
 {
@@ -24,7 +24,7 @@ class acp_module extends \phpbb\db\migration\migration
 			['module.add', [
 				'acp',
 				'ACP_ALLINONEACCESSIBILITY_TITLE', [
-					'module_basename'	=> '\skynettechnologies\phpbb_allinoneaccessibility\acp\main_module',
+					'module_basename'	=> '\skynettechnologies\phpbballinoneaccessibility\acp\main_module',
 					'modes'				=> ['settings'],
 				],
 			]],

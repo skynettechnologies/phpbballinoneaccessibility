@@ -8,19 +8,19 @@
  *
  */
 
-namespace skynettechnologies\phpbb_allinoneaccessibility\acp;
+namespace skynettechnologies\phpbballinoneaccessibility\acp;
 
 class main_info
 {
 	public function module()
 	{
 		return [
-			'filename'	=> '\skynettechnologies\phpbb_allinoneaccessibility\acp\main_module',
+			'filename'	=> '\skynettechnologies\phpbballinoneaccessibility\acp\main_module',
 			'title'		=> 'ACP_ALLINONEACCESSIBILITY_TITLE',
 			'modes'		=> [
 				'settings'	=> [
 					'title'	=> 'ACP_ALLINONEACCESSIBILITY_GENERAL',
-					'auth'	=> 'ext_skynettechnologies/phpbb_allinoneaccessibility && acl_a_board',
+					'auth'	=> 'ext_skynettechnologies/phpbballinoneaccessibility && acl_a_board',
 					'cat'	=> ['ACP_ALLINONEACCESSIBILITY_TITLE'],
 				],
 			],

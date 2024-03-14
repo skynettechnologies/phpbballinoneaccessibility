@@ -8,7 +8,7 @@
  *
  */
 
-namespace skynettechnologies\phpbb_allinoneaccessibility\event;
+namespace skynettechnologies\phpbballinoneaccessibility\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 

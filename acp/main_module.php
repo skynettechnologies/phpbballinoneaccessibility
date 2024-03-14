@@ -8,7 +8,7 @@
  *
  */
 
-namespace skynettechnologies\phpbb_allinoneaccessibility\acp;
+namespace skynettechnologies\phpbballinoneaccessibility\acp;
 
 class main_module
 {
@@ -19,7 +19,7 @@ class main_module
 	public function main($id, $mode)
 	{
 		global $phpbb_container;
-		$admin_controller = $phpbb_container->get('skynettechnologies.phpbb_allinoneaccessibility.admin.controller');
+		$admin_controller = $phpbb_container->get('skynettechnologies.phpbballinoneaccessibility.admin.controller');
 		$language = $phpbb_container->get('language');
 		$admin_controller->set_page_url($this->u_action);
 		
