@@ -38,7 +38,7 @@ class admin_controller
 		\phpbb\template\template $template,
 		\phpbb\user $user,
 		$root_path,
-		$php_ext,
+		$php_ext
 	)
 	{
 		$this->db					= $db;
