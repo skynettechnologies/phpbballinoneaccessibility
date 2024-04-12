@@ -26,7 +26,7 @@ Following features can be added as an addon
 
 ## Minimum Requirements
 * phpBB >=3.2.10,<3.4.0@dev
-* PHP >=7.0.0,<9.0.0
+* PHP >=7.0.0,<=8.3
 * cURL PHP Extension
 
 ## Installation
