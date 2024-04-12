@@ -25,16 +25,11 @@ Following features can be added as an addon
 - Reduces the risk of time-consuming accessibility lawsuits.
 
 ## Minimum Requirements
-* phpBB 3.2
-* PHP 5.4.7
+* phpBB >=3.2.10,<3.4.0@dev
+* PHP >=7.0.0,<9.0.0
+* cURL PHP Extension
 
 ## Installation
-
-Copy the extension to phpBB/ext/skynettechnologies/phpbballinoneaccessibility
-
-Go to "ACP" > "Customise" > "Extensions" and enable the "All in One Accessibility" extension.
-
-## Install
 1. Download the latest release.
 2. Unzip the downloaded release, and change the name of the folder to `phpbballinoneaccessibility`.
 3. In the `ext` directory of your phpBB board, create a new directory named `skynettechnologies` (if it does not already exist).

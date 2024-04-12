@@ -70,11 +70,6 @@ class admin_controller
 
 		$s_errors = !empty($errors);
 
-		if (!phpbb_version_compare($lang_ver, $ext_lang_min_ver, '>='))
-		{
-			$this->add_note($notes, $this->language->lang('CM_MSG_LANGUAGEPACK_OUTDATED'));
-		}
-		
 		$aioa_current_url_parse = parse_url(generate_board_url());
         $aioa_website_hostname = $aioa_current_url_parse['host'];
 		
